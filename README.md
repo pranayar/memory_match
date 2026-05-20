@@ -1,17 +1,57 @@
-# memory_match
+# 🧠 Memory Match – Flutter Game
 
-A Flutter memory matching game for Mobile Programming.
+A clean, modern, and animated **Memory Match** game built using **Flutter**.  
+Players flip cards to find matching pairs, with difficulty levels, smooth flip animations, and a polished UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🎚️ Difficulty Levels (Easy, Medium, Hard)
+- 🎴 Dynamic grid generation based on difficulty
+- 🔄 Smooth 3D flip animations
+- 🧩 Matching logic with delay for mismatches
+- 🏆 Win popup with move counter
+- 🔁 Restart button
+- 🧱 Clean architecture (Models, Screens, Widgets)
+- 🎨 Modern UI with Material 3
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Project Structure
+
+memory_match/
+│
+├── lib/
+│   ├── main.dart
+│   │
+│   ├── models/
+│   │   └── memory_card.dart
+│   │
+│   ├── screens/
+│   │   ├── home_screen.dart
+│   │   └── game_screen.dart
+│   │
+│   ├── widgets/
+│       └── memory_card_widget.dart
+│
+├── android/
+├── ios/
+├── web/
+|
+│
+└── pubspec.yaml
+
+---
+
+## 🛠️ Setup & Installation
+
+### 1️⃣ Install Flutter
+Follow the official Flutter installation guide:  
+https://docs.flutter.dev/get-started/install
+
+### 2️⃣ Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/memory_match.git
+cd memory_match
